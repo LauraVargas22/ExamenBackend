@@ -1,9 +1,11 @@
 # Modelo Conceptual
 ![alt text](images/modeloConceptual.png)
 ## Relaciones
-- Un concesionario tiene muchos vendedores
-- Un concesionario tiene muchos vehículos
-- Un vendedor puede hacer muchas ventas
-- Una venta tiene un detalle de venta, cada detalle de venta puede tener muchos vehículos asociados.
-- Un vehículo puede recibir varios servicios de mantenimiento, cada vehículo tiene un detalle de mantenimiento.
-- Un cliente hace varias compras(ventas)
+- Un concesionario tiene muchos vendedores, pero cada vendendor solo trabaja en un concesionario.
+- Un concesionario tiene muchos vehículos, pero cada vehículo solo pertenece a un concesionario.
+- Un vendedor realiza muchas ventas, pero cada venta es asociada a un vendedor.
+- Una venta tiene muchos vehiculos, pero cada vehiculo pertenece solo a una venta.
+- Un vehículo puede recibir mantenimiento varias veces, pero cada mantenimiento tiene un detalle de mantenimiento.
+- Un mantenimiento tiene muchos detalles de matenimiento.
+- Un servicio puede estar asociado a varios detalles de mantenimiento.
+- Un cliente puede hacer varias ventas, pero cada venta es realizada a un solo cliente.
